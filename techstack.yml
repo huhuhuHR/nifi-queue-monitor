@@ -1,0 +1,236 @@
+repo_name: huhuhuHR/nifi-queue-monitor
+report_id: 4aa157546b90b9367b4fef24f8c65701
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-02T01:29:39+00:00'
+requested_by: kullervo16
+provider: github
+branch: master
+detected_tools_count: 17
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/huhuhuHR/nifi-queue-monitor
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/huhuhuHR/nifi-queue-monitor
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/huhuhuHR/nifi-queue-monitor
+  detection_source: Repo Metadata
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/nifi-queue-monitor
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/huhuhuHR/nifi-queue-monitor
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/huhuhuHR/nifi-queue-monitor/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Jef Verelst
+  last_updated_on: 2020-01-05 12:43:30.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/nifi-queue-monitor/blob/master/src/main/resources/application.properties
+  detection_source: src/main/resources/application.properties
+  last_updated_by: Jef Verelst
+  last_updated_on: 2020-01-05 15:03:08.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/huhuhuHR/nifi-queue-monitor
+  detection_source: Repo Metadata
+- name: org.jdom:jdom
+  description: A complete
+  version: 2.0.2
+  license: zlib-acknowledgement
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/nifi-queue-monitor/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Jef Verelst
+  last_updated_on: 2020-01-21 19:21:18.000000000 Z
+  vulnerabilities:
+  - name: XML External Entity (XXE) Injection in JDOM
+    cve_id: CVE-2021-33813
+    cve_url: https://github.com/advisories/GHSA-2363-cqg2-863c
+    detected_date: Aug 22
+    severity: high
+    first_patched:
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  version: '2.6'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/nifi-queue-monitor/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Jef Verelst
+  last_updated_on: 2020-01-05 15:03:08.000000000 Z
+  vulnerabilities:
+  - name: Path Traversal and Improper Input Validation in Apache Commons IO
+    cve_id: CVE-2021-29425
+    cve_url: https://github.com/advisories/GHSA-gwrp-pvrq-jmwv
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: '2.7'
+- name: org.apache.httpcomponents:httpclient
+  description: Apache HttpComponents Client
+  version: 4.5.7
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/nifi-queue-monitor/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Jef Verelst
+  last_updated_on: 2020-01-21 19:21:18.000000000 Z
+  vulnerabilities:
+  - name: Cross-site scripting in Apache HttpClient
+    cve_id: CVE-2020-13956
+    cve_url: https://github.com/advisories/GHSA-7r82-7xv7-xcpj
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.5.13
+- name: io.prometheus:simpleclient_hotspot
+  description: Collectors of data from Java Hotspot
+  version: 0.0.26
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/nifi-queue-monitor/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Jef Verelst
+  last_updated_on: 2020-01-21 19:21:18.000000000 Z
+- name: javax.servlet:javax.servlet-api
+  description: Java.net - The Source for Java Technology Collaboration
+  version: 4.0.1
+  license: GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/nifi-queue-monitor/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Jef Verelst
+  last_updated_on: 2020-01-05 15:03:08.000000000 Z
+- name: org.json:json
+  description: JSON is a light-weight, language independent, data interchange format
+  license: JSON
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/nifi-queue-monitor/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Jef Verelst
+  last_updated_on: 2020-01-21 19:21:18.000000000 Z
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  version: 1.18.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/nifi-queue-monitor/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Jef Verelst
+  last_updated_on: 2020-01-21 19:21:18.000000000 Z
+- name: org.springframework.boot:spring-boot-actuator
+  description: Spring Boot Actuator
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/nifi-queue-monitor/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Jef Verelst
+  last_updated_on: 2020-01-21 19:21:18.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/nifi-queue-monitor/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Jef Verelst
+  last_updated_on: 2020-01-21 19:21:18.000000000 Z
